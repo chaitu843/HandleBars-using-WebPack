@@ -1,0 +1,33 @@
+{
+  "name": "handlebars-webpack",
+  "version": "1.0.0",
+  "description": "Handlebars to HTML generation using Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaitu843/HandleBars-using-WebPack.git"
+  },
+  "author": "Chaitanya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaitu843/HandleBars-using-WebPack/issues"
+  },
+  "homepage": "https://github.com/chaitu843/HandleBars-using-WebPack#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.0.5",
+    "babel-preset-env": "^1.7.0",
+    "handlebars": "^4.1.0",
+    "handlebars-loader": "^1.7.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.3.1",
+    "webpack": "^4.29.5",
+    "webpack-dev-server": "^3.2.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.3"
+  }
+}
