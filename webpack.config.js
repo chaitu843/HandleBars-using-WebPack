@@ -10,7 +10,13 @@ module.exports = {
   module: {
     rules: [
       { test: /\.js$/, use: 'babel-loader', exclude: "/node_modules/" },
-      { test: /\.hbs$/, use: 'handlebars-loader'},
+      { test: /\.hbs$/, use: {
+        loader: 'handlebars-loader',
+        options: {
+          helperDirs: [__dirname + "/src/hbs/helpers"],
+          partialDirs: [__dirname + "/src/hbs/partials"]
+      }}
+    }
     ]
   },
   plugins: [
